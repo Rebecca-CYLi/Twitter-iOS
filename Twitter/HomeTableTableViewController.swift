@@ -14,6 +14,15 @@ class HomeTableTableViewController: UITableViewController {
     var numberOfTweets: Int!
     
     let myRefreshControl = UIRefreshControl()
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        loadTweets()
+        
+        myRefreshControl.addTarget(self, action: #selector(loadTweets), for: .valueChanged)
+        tableView.refreshControl = myRefreshControl
+
+    }
 
     @objc func loadTweets(){
         let myUrl = "https://api.twitter.com/1.1/statuses/home_timeline.json"
@@ -38,14 +47,7 @@ class HomeTableTableViewController: UITableViewController {
         
     }//end of loadTweets
     
-    
-    
-    
-    
-    
-    
     func loeadMoreTweets(){
-        
         let myUrl = "https://api.twitter.com/1.1/statuses/home_timeline.json"
         
         numberOfTweets = numberOfTweets + 20
@@ -72,19 +74,6 @@ class HomeTableTableViewController: UITableViewController {
         }
     }
     
-    
-    
-    
-    
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        loadTweets()
-        
-        myRefreshControl.addTarget(self, action: #selector(loadTweets), for: .valueChanged)
-        tableView.refreshControl = myRefreshControl
-
-    }
 
     
     @IBAction func onLogout(_ sender: Any) {
