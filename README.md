@@ -1,18 +1,16 @@
-📝 `NOTE` Paste this template at the top of your existing `README.md` file from part 1 of this assignment. (🚫 Remove this paragraph after after checking off completed user stories)
-
 # Twitter - Part II
 
 This is a basic twitter app to view, compose, favorite, and retweet tweets.
 
-Time spent: **X** hours spent in total
+Time spent: **10** hours spent in total
 
 ## User Stories
 
 The following **required** functionality is completed:
 
-- [ ] User can compose a tweet. (4pts)
-- [ ] User can favorite a tweet. (4pts)
-- [ ] User can retweet a tweet. (2pts)
+- [x] User can compose a tweet. (4pts)
+- [x] User can favorite a tweet. (4pts)
+- [x] User can retweet a tweet. (2pts)
 
 The following **bonus** features are implemented:
 
@@ -24,12 +22,7 @@ The following **bonus** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
-
-
-
-
-
+<img src='week4.gif' title='Video Walkthrough' width=250 alt='Video Walkthrough' />
 
 # Project 3 - *Twitter iOS*
 
@@ -56,10 +49,10 @@ The following **bonus** features are implemented:
 
 Here's a walkthrough of implemented **required** user stories:
 
-<img src='twitter-1.gif' width=250 title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='twitter-1.gif' width=250 title='Video Walkthrough' alt='Video Walkthrough' />
 
 
 Here's a walkthrough of implemented **bonus** user stories:
 
-<img src='twitter-2.gif' width=250 title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='twitter-2.gif' width=250 title='Video Walkthrough' alt='Video Walkthrough' />
 
